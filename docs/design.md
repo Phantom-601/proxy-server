@@ -13,4 +13,5 @@ The proxy acts as both:
 
 -   **Server**: accepts incoming client connections
 -   **Client**: connects to destination servers
-    Client → Proxy → Destination Server
+
+Client → Proxy → Destination Server
