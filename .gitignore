@@ -1,17 +1,3 @@
-# ===== C++ build files =====
-*.exe
-*.out
-*.o
-*.obj
-*.dll
-
-# ===== Debug files =====
-*.pdb
-*.ilk
-
-# ===== Build directories =====
-build/
-cmake-build-*/
 # ======================
 # MinGW-w64 / C++
 # ======================
@@ -44,13 +30,4 @@ cmake-build-*/
 *.log
 
 # Windows OS junk
-Thumbs.db
-
-# ===== VS Code =====
-.vscode/
-
-# ===== Logs =====
-*.log
-
-# ===== OS junk =====
 Thumbs.db
