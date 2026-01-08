@@ -26,7 +26,7 @@ It forwards HTTP traffic, supports HTTPS tunneling, applies domain-based access 
 
 ## Project Structure
 
-proxy-project/
+proxy-project/  
 ├── src/ # Source files  
 ├── include/ # Header files  
 ├── config/ # Blocklist configuration  
