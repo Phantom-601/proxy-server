@@ -77,10 +77,11 @@ Runtime Logs are written to:
 ```
 
 Each log entry contains:
--Timestamp
--Destination host
--HTTP request line
--Action (ALLOWED or BLOCKED)
+
+-   Timestamp
+-   Destination host
+-   HTTP request line
+-   Action (ALLOWED or BLOCKED)
 
 Example:
 
