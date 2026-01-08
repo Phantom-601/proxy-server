@@ -42,20 +42,27 @@ proxy-project/
 
 From the project root directory:
 
-````bat
+```bat
 g++ -std=c++17 -pthread src/*.cpp -Iinclude -lws2_32 -o proxy.exe
 proxy.exe
+```
 
 The proxy listens on port 8888 by default.
 
 ## Configuration
+
 ### Blocked Domains
+
 Edit this file:
+
 ```bat
 config/blocked_domains.txt
 Add one domain per line (case-insensitive):
+```
+
 ```bat
 example.com
 badsite.org
+```
+
 Restart the proxy after modifying the blocklist.
-````
