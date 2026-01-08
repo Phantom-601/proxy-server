@@ -3,8 +3,6 @@
 This project is a **custom forward proxy server** implemented in **C++ using Winsock** on Windows.  
 It forwards HTTP traffic, supports HTTPS tunneling, applies domain-based access control, and logs each request.
 
-The project is intended for **learning and demonstrating core networking concepts** and systems programming skills.
-
 ---
 
 ## Features
@@ -33,7 +31,7 @@ proxy-project/
 ├── include/ # Header files  
 ├── config/ # Blocklist configuration  
 ├── logs/ # Proxy logs  
-├── docs/ # Design and readme
+├── docs/ # Design and readme  
 └── tests/ #testing file
 
 ---
@@ -62,8 +60,8 @@ config/blocked_domains.txt
 Add one domain per line (case-insensitive):
 
 ```bat
-example.com
-badsite.org
+super.com
+amazon.com
 ```
 
 Restart the proxy after modifying the blocklist.
