@@ -1,4 +1,4 @@
-# HTTP/HTTPS Proxy Server (C++ | Windows)
+# HTTP/HTTPS Proxy Server
 
 This project is a **custom forward proxy server** implemented in **C++ using Winsock** on Windows.  
 It forwards HTTP traffic, supports HTTPS tunneling, applies domain-based access control, and logs each request.
