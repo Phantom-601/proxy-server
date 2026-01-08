@@ -75,15 +75,6 @@ Logging is thread-safe and flushed immediately.
 
 ---
 
-## Limitations
-
--   No caching
--   No authentication
--   No persistent connections
--   No HTTP/2 or IPv6 support
-
----
-
 ## Conclusion
 
 This design demonstrates core networking concepts including TCP socket programming, HTTP parsing, concurrency, and secure HTTPS tunneling in a clear and modular manner.
