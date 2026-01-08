@@ -1,28 +1,61 @@
-# Custom HTTP/HTTPS Proxy Server
+# HTTP/HTTPS Proxy Server (C++ | Windows)
 
-## Overview
+This project is a **custom forward proxy server** implemented in **C++ using Winsock** on Windows.  
+It forwards HTTP traffic, supports HTTPS tunneling, applies domain-based access control, and logs each request.
 
-This project implements a **forward proxy server** in **C++ using Winsock** on Windows.  
-The proxy acts as an intermediary between clients and destination servers, forwarding HTTP traffic and tunneling HTTPS connections while enforcing domain-based access control.
-
-The implementation focuses on **core networking and systems concepts** such as TCP sockets, HTTP parsing, concurrency, and thread-safe logging.
+The project is intended for **learning and demonstrating core networking concepts** and systems programming skills.
 
 ---
 
-## Key Features
+## Features
 
--   HTTP request forwarding over TCP
--   HTTPS tunneling using the CONNECT method
--   Domain-based blocking using a configurable blocklist
--   Concurrent client handling (thread-per-connection)
--   Real-time, thread-safe logging with timestamps
--   Modular and extensible code structure
+-   HTTP request forwarding
+-   HTTPS support via CONNECT tunneling
+-   Domain-based blocking using a configuration file
+-   Concurrent client handling
+-   Timestamped request logging
 
 ---
 
-## Architecture
+## Requirements
 
-The proxy plays a dual role:
+-   Windows 10 / 11 (64-bit)
+-   MinGW-w64 (POSIX, SEH) with GCC ≥ 10
+-   C++17 compatible compiler
+-   `curl` (for basic verification)
 
--   **Server**: accepts incoming client connections
--   **Client**: establishes outbound connections to destination servers
+---
+
+## Project Structure
+
+proxy-project/
+├── src/ # Source files
+├── include/ # Header files
+├── config/ # Blocklist configuration
+├── logs/ # Proxy logs
+├── docs/ # Design documentation
+└── README.md
+
+---
+
+## Build Instructions
+
+From the project root directory:
+
+````bat
+g++ -std=c++17 -pthread src/*.cpp -Iinclude -lws2_32 -o proxy.exe
+proxy.exe
+
+The proxy listens on port 8888 by default.
+
+## Configuration
+### Blocked Domains
+Edit this file:
+```bat
+config/blocked_domains.txt
+Add one domain per line (case-insensitive):
+```bat
+example.com
+badsite.org
+Restart the proxy after modifying the blocklist.
+````
