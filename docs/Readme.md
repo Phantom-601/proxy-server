@@ -29,11 +29,11 @@ The project is intended for **learning and demonstrating core networking concept
 ## Project Structure
 
 proxy-project/
-├── src/ # Source files
-├── include/ # Header files
-├── config/ # Blocklist configuration
-├── logs/ # Proxy logs
-├── docs/ # Design documentation
+├── src/ # Source files  
+├── include/ # Header files  
+├── config/ # Blocklist configuration  
+├── logs/ # Proxy logs  
+├── docs/ # Design documentation  
 └── README.md
 
 ---
