@@ -1,0 +1,56 @@
+# ===== C++ build files =====
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+
+# ===== Debug files =====
+*.pdb
+*.ilk
+
+# ===== Build directories =====
+build/
+cmake-build-*/
+# ======================
+# MinGW-w64 / C++
+# ======================
+
+# Compiled binaries
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Static & dynamic libraries
+*.a
+*.dll
+
+# Debug symbols
+*.pdb
+*.ilk
+
+# Build directories
+build/
+bin/
+cmake-build-*/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Windows OS junk
+Thumbs.db
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Logs =====
+*.log
+
+# ===== OS junk =====
+Thumbs.db
