@@ -57,8 +57,9 @@ Edit this file:
 
 ```bat
 config/blocked_domains.txt
-Add one domain per line (case-insensitive):
 ```
+
+Add one domain per line (case-insensitive):
 
 ```bat
 example.com
@@ -66,3 +67,23 @@ badsite.org
 ```
 
 Restart the proxy after modifying the blocklist.
+
+## Logs
+
+Runtime Logs are written to:
+
+```bash
+    logs/proxy.log
+```
+
+Each log entry contains:
+-Timestamp
+-Destination host
+-HTTP request line
+-Action (ALLOWED or BLOCKED)
+
+Example:
+
+```bash
+2026-01-04 15:42:10 | example.com | GET http://example.com/ HTTP/1.1 | ALLOWED
+```
