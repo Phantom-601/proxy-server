@@ -122,7 +122,7 @@ curl -x localhost:8888 http://example.com
 
 -   Each request is handled independently.
 
-###
+### Verification
 
 -   Multiple log entries appear in logs/proxy.log.
 
