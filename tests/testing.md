@@ -14,19 +14,21 @@ Verify that the proxy correctly forwards HTTP requests to destination servers an
 
 ### Command
 
-````bat
+```bat
 curl -x localhost:8888 http://example.co
+```
+
 ## Expected Behavior
 
-- The HTML content of `example.com` is returned to the client.
-- The proxy establishes a connection to the destination server.
-- An entry is written to the log file indicating `ALLOWED`.
+-   The HTML content of `example.com` is returned to the client.
+-   The proxy establishes a connection to the destination server.
+-   An entry is written to the log file indicating `ALLOWED`.
 
 ## Verification
 
-- Response content is displayed in terminal.
-- `logs/proxy.log` contains:
+-   Response content is displayed in terminal.
+-   `logs/proxy.log` contains:
 
-```sql
+```bat
 <timestamp> | example.com | GET http://example.com/ HTTP/1.1 | ALLOWED
-````
+```
