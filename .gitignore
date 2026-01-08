@@ -26,8 +26,6 @@ cmake-build-*/
 # VS Code
 .vscode/
 
-# Logs
-*.log
 
 # Windows OS junk
 Thumbs.db

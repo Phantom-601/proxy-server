@@ -33,8 +33,8 @@ proxy-project/
 ├── include/ # Header files  
 ├── config/ # Blocklist configuration  
 ├── logs/ # Proxy logs  
-├── docs/ # Design documentation  
-└── README.md
+├── docs/ # Design and readme
+└── tests/ #testing file
 
 ---
 
