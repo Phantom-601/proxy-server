@@ -86,3 +86,9 @@ Example:
 ```bash
 2026-01-04 15:42:10 | example.com | GET http://example.com/ HTTP/1.1 | ALLOWED
 ```
+
+## Demo Video
+
+Here is the Domonstration of complete proxy server features.
+
+[click here](https://iitracin-my.sharepoint.com/:v:/g/personal/pankaj_k1_ece_iitr_ac_in/IQAXv8AXussJSrQPJurZBEn9AXoEf6wT9xDRnKFtnAJcpjg?e=SmpVTt)

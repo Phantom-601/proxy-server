@@ -15,7 +15,7 @@ Verify that the proxy correctly forwards HTTP requests to destination servers an
 ### Command
 
 ```bat
-curl -x localhost:8888 http://example.co
+curl -x localhost:8888 http://example.com
 ```
 
 ### Expected Behavior

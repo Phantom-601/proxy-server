@@ -1,16 +1,5 @@
-2026-01-04 03:07:05 | example.com | GET http://example.com/ HTTP/1.1
- | ALLOWED
-2026-01-04 03:07:27 | google.com | GET http://google.com/ HTTP/1.1
- | ALLOWED
-2026-01-04 03:14:00 | google.com | GET http://google.com/ HTTP/1.1
- | ALLOWED
-2026-01-04 03:14:17 | super.com | GET http://super.com/ HTTP/1.1
- | BLOCKED
-2026-01-04 03:15:25 | suar.com | GET http://suar.com/ HTTP/1.1
- | ALLOWED
-2026-01-06 18:41:55 | google.com | GET http://google.com/ HTTP/1.1
- | ALLOWED
-2026-01-08 21:34:02 | www.google.com:443 | CONNECT www.google.com:443 HTTP/1.1 | ALLOWED
-2026-01-08 21:40:22 | google.com | GET http://google.com/ HTTP/1.1 | ALLOWED
-2026-01-08 21:40:25 | google.com | GET http://google.com/ HTTP/1.1 | ALLOWED
-2026-01-08 21:40:29 | google.com | GET http://google.com/ HTTP/1.1 | ALLOWED
+2026-01-09 13:44:19 | google.com | GET http://google.com/ HTTP/1.1 | ALLOWED
+2026-01-09 13:44:56 | amazon.com | GET http://amazon.com/ HTTP/1.1 | BLOCKED
+2026-01-09 13:45:23 | www.google.com:443 | CONNECT www.google.com:443 HTTP/1.1 | ALLOWED
+2026-01-09 13:46:09 | www.google.com:443 | CONNECT www.google.com:443 HTTP/1.1 | ALLOWED
+2026-01-09 13:46:10 | www.google.com:443 | CONNECT www.google.com:443 HTTP/1.1 | ALLOWED
